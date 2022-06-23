@@ -41,6 +41,8 @@
 </receive>
 ```
 3. 依赖关系只考虑了 `inputVariable` 与 `outputVariable`(`variable`)。
+4. 没有考虑循环依赖等异常情况。输入需要能够正确建立有向无环图。
+5. 输入为硬编码，程序未封装为 CLI 软件。
 
 ## 需求描述
 
